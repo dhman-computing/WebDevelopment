@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>HTML Form</h1>
+    <form action="bachend.php">
+        <div>
+            <label for="name">Name</label><br>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="age">Age</label><br>
+            <input type="number" name="myAge" id="age">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" name="myEmail" id="email">
+        </div>
+        <br>
+        <div>
+            <label for="dob">Date of Birth</label><br>
+            <input type="date" name="myDOB" id="dob">
+        </div>
+        <br>
+        <div>
+            <label for="ell">Are you 18 years or more?</label><br>
+            <input type="checkbox" name="myElligibility" id="ell" checked>
+        </div>
+        <br>
+        <div>
+            <label for="gender">Gender</label><br>
+            Male <input type="radio" name="myGender" id="gender" checked>
+            Female <input type="radio" name="myGender" id="gender">
+            Others <input type="radio" name="myGender" id="gender">
+        </div>
+        <br>
+        <div>
+            <label for="about">About Me :</label><br>
+            <textarea name="myAbout" id="" cols="90" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="hobby">Hobby</label><br>
+            <select name="myHobby" id="hobby">
+                <option value="pro" selected>Programming</option>
+                <option value="ele">Electronics</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+    <br>
+    <a href="index.html">Home</a>
+</body>
+</html>
